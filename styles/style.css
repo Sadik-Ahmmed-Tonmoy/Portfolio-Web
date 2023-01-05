@@ -1,88 +1,89 @@
 * {
-  font-family: "Open Sans", sans-serif;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
-.primary-color {
+.Primary-color {
   color: #fd6e0a;
 }
-.header {
-  background-color: #fff8f3;
-  background-image: url(../images/header_bg.png), url(../images/developer.png);
-  background-repeat: no-repeat;
-  background-position: bottom right, left;
-}
-
-.orange-btn {
+.orange-button {
+  color: #ffffff;
   background-color: #fd6e0a;
-  font-weight: 700;
-  font-size: 20px;
-  height: 64px;
-  padding: 18px 35px;
   border: none;
   border-radius: 5px;
-  color: #ffffff;
+  height: 64px;
+  padding: 15px 15px;
 }
-/* banner */
-.banner {
-  margin: 0px 0px 0px 200px;
-  align-items: center;
+
+/* nav bar */
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 47px 230px;
 }
-.banner-sub-title {
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+header{
+  background-color: #FFF8F3;
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left, bottom right;
+}
+
+/* Top Banner */
+.top-banner {
+  display: flex;
+  margin: 0 38px 0 230px;
+  gap: 163px;
+}
+.sub-title {
   color: #474747;
   font-weight: 600;
   font-size: 45px;
+  margin-top: 295px;
 }
-.banner-title {
+.title-name {
   font-weight: 700;
   font-size: 85px;
-  margin-bottom: 20px;
 }
-.banner-discription {
+.title-discription {
   color: #757575;
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 30px;
 }
-/* main */
-main {
+
+/* about section */
+
+.about-container{
   max-width: 1140px;
-  margin: 0 auto;
-}
-/* about */
-.about {
-  text-align: center;
-  margin-top: 130px;
-  background-color: #fff8f3;
-  border-radius: 10px;
+  margin: 130px auto;
+  background-color: #FFF8F3;
   padding: 130px 150px;
+
 }
-.section-title {
-  margin-bottom: 30px;
+.about-title{
+  text-align: center;
   font-weight: 700;
-  font-size: 35px;
+font-size: 35px;
+margin-bottom: 30px;
 }
-.section-description {
-  color: #757575;
-  font-size: 18;
+.about-discription{
+  text-align: center;
   margin-bottom: 30px;
 }
-.about-info-container{
+.about-sub-details{
   display: flex;
   justify-content: space-around;
-}
-.about .info-title{
-  font-size: 20px;
-  color: #757575;
   margin-top: 30px;
-}
-.info-description{
-  font-weight: 700;
-  font-size: 20px;
-  color: #757575;
-}
-
-/* ido */
-.what-i-do{
-
 }
